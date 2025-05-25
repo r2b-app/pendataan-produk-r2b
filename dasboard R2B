@@ -4,7 +4,7 @@ import { createClient } from "@supabase/supabase-js";
 
 import { createClient } from '@supabase/supabase-js'
 const supabaseUrl = 'https://kpxxmfdcstteozbdnett.supabase.co'
-const supabaseKey = process.env.SUPABASE_KEY
+const supabaseKey = process.env.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtweHhtZmRjc3R0ZW96YmRuZXR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgxNzcwNzcsImV4cCI6MjA2Mzc1MzA3N30.vURTMg28LtyJta71z8tdTxEJu_2Flh3a2keLh9qLzH0
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 function generateUniqueCode(existingCodes) {
